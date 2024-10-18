@@ -1,22 +1,53 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-    int a = 10;
-    a = 12;
-    printf("%p\n",&a);
-    int b = &a;
-    printf("%p\n",b);
+    int a = 15;
     
-    int* c= &a;
-    printf("%d\n",*c);
 
-    int d = &b;
-    printf("%p\n",d);
+    printf("%d \n",a);
+    printf("%p\n",&a);
+    int* b = &a;
+    printf("%p\n",b);
 
-    int **e = d;
-    printf("%d\n",**e);
+    printf("%d", * b);
 
-    int ***f = &e;
-    printf("%d\n",***f);
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     int a = 10;
+//     a = 12;
+//     printf("%p\n",&a);
+//     int b = &a;
+//     printf("%p\n",b);
+    
+//     int* c= &a;
+//     printf("%d\n",*c);
+
+//     int d = &b;
+//     printf("%p\n",d);
+
+//     int **e = d;
+//     printf("%d\n",**e);
+
+//     int ***f = &e;
+//     printf("%d\n",***f);
+// }
