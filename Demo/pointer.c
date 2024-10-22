@@ -4,17 +4,40 @@
 int main()
 {
     int a = 15;
-    
-
     printf("%d \n",a);
-    printf("%p\n",&a);
+    printf("%p \n", &a);
     int* b = &a;
-    printf("%p\n",b);
+    printf("%p \n", b);
 
-    printf("%d", * b);
+    printf("%d", *b);
+
+    int** c = &b;
+    printf("%p \n", c);
+
+    printf("%d\n", **c);
+
+    int ***d = &c;
+
+    printf("%d", ***d);
+
+
 
 
 }
+
+
+
+
+
+
+    // printf("%p\n",&a);
+    // int* b = &a;
+    // printf("%p\n",b);
+
+    // printf("%d", * b);
+
+
+
 
 
 

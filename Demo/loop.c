@@ -1,14 +1,19 @@
 #include <stdio.h>
+#include <string.h> 
 
 int main()
 {
 
   int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
+  
+
   int a = 0;
+  int count = 0;
   do{
     printf("%d \n", arr[a]);
     a++;
+    count++;
     }
   while(a<=9);
 
