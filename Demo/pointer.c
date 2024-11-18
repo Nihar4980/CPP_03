@@ -1,24 +1,23 @@
 #include <stdio.h>
-#include <string.h>
 
 int main()
 {
-    int a = 15;
-    printf("%d \n",a);
+    int  a = 15;
+    printf("The value of a is %d \n",a);
     printf("%p \n", &a);
-    int* b = &a;
+    int *b = &a;
     printf("%p \n", b);
 
-    printf("%d", *b);
+    printf("%d \n", *b);
 
     int** c = &b;
     printf("%p \n", c);
 
     printf("%d\n", **c);
 
-    int ***d = &c;
+    // int ***d = &c;
 
-    printf("%d", ***d);
+    // printf("%d", ***d);
 
 
 

@@ -16,14 +16,18 @@ float div(int x,int y)
 {
     if (y !=0)
     {
-    return x/y;
+    return (float)x/y;
+    }
+    else
+    {
+        printf("Division is not possible !");
     }
 }
 
 int main()
 {
-   int a=500;
-   int b=0;
+   int a=10;
+   int b=20;
    int c = add(a, b);
    printf("Addition: %d\n", c);
 
@@ -34,8 +38,8 @@ int main()
    printf("Multiplication: %d\n", e);
 
    float f = div(a, b);
-   if (f != 0){
-   printf("Division: %.2f", f);
+   {
+   printf("Division: %.7f", f);
     }
 }
 

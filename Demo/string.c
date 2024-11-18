@@ -2,7 +2,7 @@
 #include <string.h> 
  
 int main() { 
-    // char a = 'a';
+    // char a = '@';
 
     // printf("%c \n", a);
     // printf("%ld", sizeof(a));
@@ -19,11 +19,11 @@ int main() {
     // }
     // printf("\n%ld", size);
 
-    // char arr[] = "MIT WPU";
+    char arr[] = "MIT WPU";
 
     // char* ptr = arr;
     // printf("%p\n", ptr);
-    // printf("%p\n", &arr[4]);
+    // printf("%p\n", &arr[3]);
 
     // int i = 0;
     // while(arr[i] != '\0')
@@ -31,7 +31,7 @@ int main() {
     // printf("%c",arr[i]);
 
     // i++;
-    // }
+    }
 
     // char arr[] = "MIT WPU";
 
@@ -43,10 +43,10 @@ int main() {
     //   printf("%c", * ptr);
     //   ptr++; 
     // }
-    char arr[] = "MIT WPU";
+    // char arr[] = "MIT WPU";
 
     int len = strlen(arr);
-    printf("%d \n", len);
+    // printf("%d \n", len);
 
     for(int i=0, j = len-1; i<=j; i++, j--)
     {
@@ -55,13 +55,13 @@ int main() {
         arr[j] = temp;
     }
 
-    int i = 0;
-    while(arr[i] != '\0')
-    {
-    printf("%c",arr[i]);
+    // int i = 0;
+    // while(arr[i] != '\0')
+    // {
+    // printf("%c",arr[i]);
 
-    i++;
-    }
+    // i++;
+    // }
     // char arr[] = "MIT WPU";
     // char * arr1 = arr;
     // arr[0] = 'S';
