@@ -24,10 +24,25 @@ float div(int x,int y)
     }
 }
 
+int swap(int * x, int * y)
+{
+    int temp = *x;
+    *x = *y;
+    *y = temp;
+}
+
 int main()
 {
    int a=10;
    int b=20;
+
+   swap(&a,&b);
+
+   printf("The vale of a = %d and value of b = %d \n", a,b);
+
+
+   
+   
    int c = add(a, b);
    printf("Addition: %d\n", c);
 

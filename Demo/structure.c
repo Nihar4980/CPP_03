@@ -1,19 +1,45 @@
 #include <stdio.h>
 #include <string.h>
+
 struct myStructure {
   int myNum;
   char myLetter;
   char myString[30];  // String
 };
 
-int main() {
-  struct myStructure s1;
+struct Student
+{
+  char Name[30];
+  int Roll;
+  int Batch;
+  int Division;
+  char Branch[30];
+};
 
-  // Trying to assign a value to the string
-  strcpy(s1.myString,"Some text");
+int main() {
+  struct Student S1;
+  strcpy(S1.Name,"Nihar");
+  S1.Roll = 1;
+  S1.Batch = 1;
+  S1.Division = 1;
+  strcpy(S1.Branch,"AIML");
+
+  printf("Name : %s \n", S1.Name);
+  printf("Roll Number: %d \n", S1.Roll);
+  printf("Batch: %d \n", S1.Batch);
+  printf("Division: %d \n", S1.Division);
+  printf("Branch: %s \n", S1.Branch);
+
+
+  struct myStructure s2;
+  s2.myNum = 10;
+  s2.myLetter = 'N';
+  strcpy(s2.myString,"Some text");
 
   // Trying to print the value
-  printf("My string: %s", s1.myString);
+  printf("My Number: %d \n", s2.myNum);
+  printf("My Letter: %c \n", s2.myLetter);
+  printf("My string: %s \n", s2.myString);
 
   return 0;  
 }
