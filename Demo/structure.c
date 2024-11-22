@@ -9,7 +9,7 @@ struct myStructure {
 
 struct Student
 {
-  char Name[30];
+  char Name[100];
   int Roll;
   int Batch;
   int Division;
