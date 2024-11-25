@@ -7,24 +7,12 @@ int print_arr(int a[], int size) // input: integer array and integer size of arr
         printf("%d ", a[i]);
     }
 }
-
 int main()
 {
-    
     int arr[] = {1,2,3,4,5,6,7,8,9,10};
-    int arr1[] = {1,2,3,4,5,6};
-    int arr2[] = {1,2,3,4,5};
-
-    
     int size;
     size = sizeof(arr)/sizeof(arr[0]);
-
-    // print_arr(arr, size);
-
-    int size1 = sizeof(arr1)/sizeof(arr1[0]);
-    print_arr(arr1, size1);
-
-    
+    print_arr(arr, size);  
 }
 
 

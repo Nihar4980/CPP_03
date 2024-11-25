@@ -9,7 +9,7 @@ int decreasing(int n)
 
 int factor(int n)
 {
-    if (n==1) return 1;
+    if (n==0 || n==1) return 1;
     int fact = 1;
     for (int i=1; i <=n; i++)
     {
@@ -20,7 +20,7 @@ int factor(int n)
 
 int fact(int n)
 {
-    if (n==1) return 1;
+    if (n==0 || n==1) return 1;
     return n * fact(n-1);
 }
 
@@ -49,25 +49,25 @@ int increase(int n)
 
 int main()
 {
-   int x= 1, n = 5; 
+   int x= 1, n = 1; 
 
-   decreasing(n);
-   printf("\n");
+//    decreasing(n);
+//    printf("\n");
 
-   printf("******************* \n");
+//    printf("******************* \n");
    
-   increasing(x, n);
-   printf("\n");
+//    increasing(x, n);
+//    printf("\n");
 
-   printf("******************* \n");
+//    printf("******************* \n");
 
-   increase(n);
+//    increase(n);
 
-   printf("\n");
+//    printf("\n");
 
-   printf("******************* \n");
+//    printf("******************* \n");
 
-   printf("%d",factor(n));
+//    printf("%d",factor(n));
    
 
    printf("\n******************* \n");

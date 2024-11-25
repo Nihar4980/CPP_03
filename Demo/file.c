@@ -11,18 +11,18 @@ int main()
     //     printf("%s", str);
     // }
 
-    // FILE * ptr = fopen("text1.txt", "w");
+    FILE * ptr = fopen("text1.txt", "w");
 
-    // char str[] = "Good Morning\nWelcome to MITWPU";
-    // fputs(str, ptr);
-    // fclose(ptr);
+    char str[] = "Good Morning\nWelcome to MITWPU\n I am good";
+    fputs(str, ptr);
+    fclose(ptr);
 
-    FILE * ptr = fopen("text1.txt", "r");
+    // FILE * ptr = fopen("text1.txt", "r");
 
-    char str[100];
+    // char str[100];
 
-    while (fgets(str, 100, ptr) != NULL)
-    {
-        printf("%s", str);
-    }
+    // while (fgets(str, 100, ptr) != NULL)
+    // {
+    //     printf("%s", str);
+    // }
 }
