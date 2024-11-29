@@ -27,6 +27,7 @@ unsigned long long factorial(int *n){
 //     while( i<=n)
 //     {
 //         result *=i;
+//         i++;
 //     }
 //     return result;
 // }
@@ -36,7 +37,7 @@ unsigned long long factorial(int *n){
 //         return 1;
 //     }
 //     unsigned long long result = 1;
-//     int i=0
+//     int i=1;
 //     do
 //     {
 //         result *=i;

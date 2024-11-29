@@ -4,14 +4,18 @@ int add(int x,int y)
 {
     return x+y;
 }
+
+
 int sub(int x,int y)
 {
     return x-y;
 }
+
 int mul(int x,int y)
 {
     return x*y;
 }
+
 float div(int x,int y)
 {
     if (y !=0)
@@ -24,7 +28,7 @@ float div(int x,int y)
     }
 }
 
-int swap(int * x, int * y)
+int swap(int*  x, int*  y)
 {
     int temp = *x;
     *x = *y;
@@ -33,9 +37,16 @@ int swap(int * x, int * y)
 
 int main()
 {
-   int a=10;
-   int b=20;
+   int a = 10;
+   int b = 20;
 
+//    int temp = a;
+//    a = b;
+//    b = temp;
+//    printf("The vale of a = %d and value of b = %d \n", a,b);
+
+//    printf("%d \n", a+b);
+   
    swap(&a,&b);
 
    printf("The vale of a = %d and value of b = %d \n", a,b);
@@ -54,7 +65,7 @@ int main()
 
    float f = div(a, b);
    {
-   printf("Division: %.7f", f);
+   printf("Division: %.2f", f);
     }
 }
 

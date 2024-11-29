@@ -49,7 +49,7 @@ int increase(int n)
 
 int main()
 {
-   int x= 1, n = 1; 
+   int x=1, n = 10; 
 
 //    decreasing(n);
 //    printf("\n");
@@ -61,7 +61,7 @@ int main()
 
 //    printf("******************* \n");
 
-//    increase(n);
+   increase(n);
 
 //    printf("\n");
 
@@ -70,7 +70,7 @@ int main()
 //    printf("%d",factor(n));
    
 
-   printf("\n******************* \n");
+//    printf("\n******************* \n");
 
-   printf("%d",fact(n));
+//    printf("%d",fact(n));
 }

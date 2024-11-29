@@ -13,9 +13,15 @@ int main(){
 
     // printf("%d \n", (int)ch1);
 
-    char ch2 = '\0';
+    // char ch2 = '\0';
 
-    printf("%c \n", ch2);
+    // printf("%c \n", ch2);
+
+    for (int i=1 ; i< 10; i++) 
+    {printf("%d", i);}
+    printf("\n");
+    for (int i=1 ; i< 10; ++i) 
+    {printf("%d", i);}
 
 
 }
