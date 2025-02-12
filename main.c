@@ -3,7 +3,9 @@
 
 int main()
 {
-    printf("Hello World\n");
-    printf("%02d",1);
+    int age = 21;
+    printf("Age : %d \n", age);
+    printf("Size : %lu", sizeof(age));
+    
     return 0;
 }

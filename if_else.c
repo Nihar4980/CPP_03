@@ -3,25 +3,18 @@
 int main()
 {
     
-    int age;
-    printf("Enter your age : \n");
-    scanf("%d",&age);
-    printf("Your age is : %d\n", age);
+    int num1 = 5;
+    int num2 = 5;
     
-    if (age >= 0)
+    
+    if (num1 == num2) // check num is devide by 2 
     {
-        if (age >= 18)
-            {
-                printf("You are eligible to vote");
-            }
-        else
-            {
-                printf("You are not eligible to vote");
-            }
+        printf("Equal number");
     }
+    
     else
     {
-        printf("Enter a valid age!");
+        printf("Not equal number!");
     }
     
 }

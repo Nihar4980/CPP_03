@@ -3,7 +3,7 @@
 int main()
 {
     int day;
-    printf("Enter your day: \n");
+    printf("Enter your day: [0-7] \n");
 
     scanf("%d", &day);
 
@@ -33,6 +33,6 @@ int main()
         default:
         printf("Looking forward to the Weekend");
         
-    
+
     }
 }

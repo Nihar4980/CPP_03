@@ -3,8 +3,8 @@
 int main()
 {
     int a,b;
-    a = 10;
-    b = 5;
+    scanf("%d", &a);
+    scanf("%d", &b);
 
     printf("a bitwise and b = %d\n", a & b);
     printf("a bitwise or b = %d\n", a | b);
@@ -14,7 +14,7 @@ int main()
     printf("a and b = %d\n", a && b);
     printf("a or b = %d\n", a || b);
 
-    printf("a one's compelment b = %d\n", ~a);
+    printf("a one's compelment b = %d\n", ~b);
     printf("a binary left shift b = %d\n", a << b);
     printf("a binary right shift b = %d\n", a >> b);
 

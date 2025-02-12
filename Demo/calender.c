@@ -9,7 +9,7 @@ printf("Enter a year: ");
 scanf("%d", &year);
 printf("Enter a month (1-12): ");
 scanf("%d", &month);
-
+c
     
 // Calculate the number of days in the month
 if (month == 2)
@@ -28,7 +28,7 @@ else
 //  Calculate the starting day of the month
 startingDay = (year - 1) * 365 + (year - 1)/4 -(year - 1)/100 + (year - 1)/ 400;
 
-for (int i = 1; i < month; ++i)
+for (int i = 1; i < month; i++)
 {
     if (i == 2)
     {
@@ -46,9 +46,9 @@ for (int i = 1; i < month; ++i)
 dayOfWeek = (startingDay + 1) % 7; // Incrementing the strating day by 1
 
 // Display the calender
-printf("\n==============================\n");
+printf("\n===============================\n");
 printf("%d-%02d\n", year, month);
-printf("===============================\n");
+printf("================================\n");
 printf(" Sun Mon Tue Wed Thu Fri Sat\n");
 
 // Print spaces for the days before the starting day of the month
@@ -58,7 +58,7 @@ for (int i = 0; i < dayOfWeek; i++)
         printf("    ");
     }
 // Print the days of the month
-for (int day = 1; day <= daysInMonth; ++day)
+for (int day = 1; day <= daysInMonth; day++)
     {
         printf("%4d", day);
 
