@@ -11,16 +11,18 @@ int main() {
 
 
     // char arr[] = {'M','I','T', ' ', 'W', 'P','U','\0'};
-    // long int size = 0;
-    // for(int i =0; arr[i] != '\0'; i++){
+    // for(int i =0; arr[i] != '\0'; i++)
+    // {
     //     printf("%c",arr[i]);
-
-    //     size += sizeof(arr[i]);
     // }
-    // printf("\n%ld", size);
-
     char arr[] = "MIT WPU";
 
+    printf("%s",arr);
+    // arr[6] = 'Z';
+    // for(int i =0; arr[i] != '\0'; i++)
+    // {
+    //     printf("%c",arr[i]);
+    // }
     // char* ptr = arr;
     // printf("%p\n", ptr);
     // printf("%p\n", &arr[3]);
@@ -31,7 +33,7 @@ int main() {
     // printf("%c",arr[i]);
 
     // i++;
-    }
+    // }
 
     // char arr[] = "MIT WPU";
 
@@ -45,15 +47,15 @@ int main() {
     // }
     // char arr[] = "MIT WPU";
 
-    int len = strlen(arr);
-    // printf("%d \n", len);
+    // int len = strlen(arr);
+    // // printf("%d \n", len);
 
-    for(int i=0, j = len-1; i<=j; i++, j--)
-    {
-        char temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
+    // for(int i=0, j = len-1; i<=j; i++, j--)
+    // {
+    //     char temp = arr[i];
+    //     arr[i] = arr[j];
+    //     arr[j] = temp;
+    // }
 
     // int i = 0;
     // while(arr[i] != '\0')
