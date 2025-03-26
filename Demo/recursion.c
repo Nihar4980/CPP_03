@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-int decreasing(int n)
-{   if (n < 1) return 0;
-    printf("%d ", n);
-    decreasing(n-1);
-    return 0;
-}
+// int decreasing(int n)
+// {   if (n < 1) return 0;
+//     printf("%d ", n);
+//     decreasing(n-1);
+//     return 0;
+// }
 
 int factor(int n)
 {
@@ -24,19 +24,19 @@ int fact(int n)
     return n * fact(n-1);
 }
 
-int increasing(int x, int n)
-{   if (x > n) return 0;
-    printf("%d ", x);
-    increasing(x+1, n);
-    return 0;
-}
+// int increasing(int x, int n)
+// {   if (x > n) return 0;
+//     printf("%d ", x);
+//     increasing(x+1, n);
+//     return 0;
+// }
 
-int increase(int n)
-{   if (n < 1) return 0; // base case
-    increase(n-1); //call
-    printf("%d ", n); // code
-    return 0;
-}
+// int increase(int n)
+// {   if (n < 1) return 0; // base case
+//     increase(n-1); //call
+//     printf("%d ", n); // code
+//     return 0;
+// }
 
 // int increas(int n)
 // {
@@ -49,7 +49,9 @@ int increase(int n)
 
 int main()
 {
-   int x=1, n = 10; 
+   int x=1, n = 4;
+   printf("%d",fact(n));
+
 
 //    decreasing(n);
 //    printf("\n");
@@ -61,7 +63,7 @@ int main()
 
 //    printf("******************* \n");
 
-   increase(n);
+//    increase(n);
 
 //    printf("\n");
 

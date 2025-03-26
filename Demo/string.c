@@ -1,10 +1,23 @@
 #include <stdio.h> 
 #include <string.h> 
  
-int main() { 
-    // char a = '@';
+int main() {
 
-    // printf("%c \n", a);
+     // declare and initialize string
+     char str[] = "Geeks";
+
+     // printing read string
+    printf("%s", str);
+    
+}
+
+
+
+
+
+
+
+
     // printf("%ld", sizeof(a));
 
     // printf("%c\n", '\0');
@@ -15,9 +28,10 @@ int main() {
     // {
     //     printf("%c",arr[i]);
     // }
-    char arr[] = "MIT WPU";
+    // char arr[] = "MIT WPU";
 
-    printf("%s",arr);
+    // printf("%s",arr);
+    
     // arr[6] = 'Z';
     // for(int i =0; arr[i] != '\0'; i++)
     // {
@@ -88,4 +102,4 @@ int main() {
 
 
 
-}
+

@@ -2,10 +2,10 @@
 
 int main()
 {
-  int arr[10] = {1, 5,2,3,6,9,8,7,4,10};
+  int arr[10] = {10, 5,2,3,6,9,8,7,4,1};
   int n = sizeof(arr)/sizeof(arr[0]);
   int i,j, temp1;
-  for(i = 0;i<n-1; i++){
+  for(int i = 0;i<n-1; i++){
     for(j = 0; j < n-i-1; j++){
       if (arr[j] > arr[j+1]){
         temp1 = arr[j];
@@ -15,10 +15,16 @@ int main()
     }
   }
   for(int i=0; i<=n-1; i++)
-  {   
-      printf("%d \n", arr[i]);
+    {   
+        printf("%d \n", arr[i]);
+    }
+
   }
-}
+//   for(int i=0; i<=n-1; i++)
+//   {   
+//       printf("%d \n", arr[i]);
+//   }
+// }
 
 //   int index = length_array-1;
 //   do{
@@ -45,18 +51,20 @@ int main()
 //         printf("%d \n", arr[i]);
 //     } 
 //   printf("************************************** \n");
-//   int start = 0;
-//   int end = length_array-1;
-//   while(start < end)
-//   {
-//     int temp = arr[start];
-//     arr[start] = arr[end];
-//     arr[end] = temp;
-//     start++;
-//     end--;
-//   }
-//   for(int i=0; i<=length_array-1; i++)
-//   {   
-//       printf("%d \n", arr[i]);
-//   }
+// int arr[10] = {1,5,2,3,6,9,8,7,4,10};
+// int n = sizeof(arr)/sizeof(arr[0]);
+// int start = 0;
+// int end = n-1;
+// while(start < end)
+// {
+//   int temp = arr[start];
+//   arr[start] = arr[end];
+//   arr[end] = temp;
+//   start++;
+//   end--;
+// }
+// for(int i=0; i<=n-1; i++)
+// {   
+//     printf("%d \n", arr[i]);
+// }
 // }

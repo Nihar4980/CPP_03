@@ -28,33 +28,28 @@ float div(int x,int y)
     }
 }
 
-int swap(int*  x, int*  y)
+int swap(int  x, int  y)
 {
-    int temp = *x;
-    *x = *y;
-    *y = temp;
+    int temp = x;
+    x = y;
+    y = temp;
 }
 
 int main()
 {
    int a = 10;
    int b = 20;
-
-//    int temp = a;
-//    a = b;
-//    b = temp;
-//    printf("The vale of a = %d and value of b = %d \n", a,b);
-
+   // int temp = a;
+   // a = b;
+   // b = temp;
+   // printf("The vale of a = %d and value of b = %d \n", a,b);
 //    printf("%d \n", a+b);
    
-   swap(&a,&b);
+   swap(a,b);
 
    printf("The vale of a = %d and value of b = %d \n", a,b);
-
-
    
-   
-   int c = add(a, b);
+   int c = add(a,b);
    printf("Addition: %d\n", c);
 
    int d = sub(a, b);

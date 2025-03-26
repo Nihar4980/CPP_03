@@ -2,18 +2,16 @@
 
 int main()
 {
-    int arr[2][2][2] = {{{1,2}, {3,4}},{{5,6}, {7,8}}};
+    int arr[2][3] = {{1,2,3},{1,2,3}};
+    int arr1[2][3];
 
-
-    for(int i =0; i < 2; i++)
+    for(int i =0; i < 2; i++) //rows = 2
     {
-        for(int j =0; j < 2; j++)
-            {for(int k =0; k < 2; k++)
-                {
-                    printf("The rows is %d , column is %d and height %d : value %d \n", i, j,k, arr[i][j][k]);
-                    
-                }
-    }
+        for(int j =0; j < 3; j++) //i = 0 :{1,2,3}
+            {
+                arr1[i][j] = arr[i][j] + arr[i][j];
+                printf("row = %d, col = %d, value = %d \n", i, j, arr1[i][j]);
+            }
     }
 
 
