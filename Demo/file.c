@@ -2,27 +2,15 @@
 
 int main()
 {
-    FILE * ptr = fopen("text.txt", "r"); // Open a file in reading mode
+    FILE * ptr = fopen("text.txt", "w");
+    char str[] = "Good Morning\nWelcome to MITWPU\n I am good";
+    fputs(str, ptr);
+    fclose(ptr);
 
-    char str[100];
-
-    while (fgets(str, 100, ptr) != NULL)
+    FILE * ptr1 = fopen("text.txt", "r");
+    char str1[100];
+    while (fgets(str1, 100, ptr1) != NULL)
     {
-        printf("%s", str);
+        printf("%s", str1);
     }
-
-    FILE * ptr1 = fopen("text1.txt", "w");
-
-    char str1[] = "Good Morning\nWelcome to MITWPU\n I am good";
-    fputs(str1, ptr1);
-    fclose(ptr1);
-
-    // FILE * ptr = fopen("text1.txt", "r");
-
-    // char str[100];
-
-    // while (fgets(str, 100, ptr) != NULL)
-    // {
-    //     printf("%s", str);
-    // }
 }

@@ -4,11 +4,12 @@
 int main() {
 
      // declare and initialize string
-     char str[] = "Geeks";
-
+     char str[] = "Good Morning";
      // printing read string
-    printf("%s", str);
-    
+    printf("%s", str);  
+    int len = strlen(str);
+    printf("%d \n", len); 
+
 }
 
 

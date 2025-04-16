@@ -3,14 +3,11 @@
 int main()
 {
    int year, month, daysInMonth, startingDay, dayOfWeek; 
-
 //    Input year and month
 printf("Enter a year: ");
 scanf("%d", &year);
 printf("Enter a month (1-12): ");
 scanf("%d", &month);
-c
-    
 // Calculate the number of days in the month
 if (month == 2)
     // Check for leap year
