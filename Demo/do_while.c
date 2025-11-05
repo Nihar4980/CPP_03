@@ -3,14 +3,11 @@
 int main()
 {
    int i = 20;
-
    do  // Execute once atlist upto condion satisfy
-   {
-      if (i%2==0)
-      {
-      printf("Value : %d \n", i);
-      }
-      i--;
+   { 
+     printf("%d \n",i);
+     
+     i--;
    }
-   while (i>=1);
+   while (i >=0);
 }

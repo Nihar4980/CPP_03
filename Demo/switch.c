@@ -2,9 +2,8 @@
 
 int main()
 {
-    int day;
     printf("Enter your day: [1-7] \n");
-    scanf("%d", &day);
+    int day = 5;
     switch (day)
     {
         case 1:

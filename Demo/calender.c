@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
    int year, month, daysInMonth, startingDay, dayOfWeek; 

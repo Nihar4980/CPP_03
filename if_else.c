@@ -18,7 +18,7 @@ int main()
             printf("c is the smallest number \n");
         }
     }
-    if ((b > a) && (b > c))
+    else if ((b > a) && (b > c))
     {
         printf("b is the greater number \n");
         if (a<c)
@@ -30,7 +30,7 @@ int main()
             printf("c is the smallest number \n");
         }
     }
-    if ((c > a) && (c > a))
+    else
     {
         printf("c is the greater number \n");
         if (a<b)

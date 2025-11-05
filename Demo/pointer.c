@@ -3,12 +3,10 @@ int main()
 {
     int a = 10;
     printf("a = %d \n", a);
-    printf("a = %p \n", &a);
-    int* x = &a;
-    printf("a = %p \n", x);
-    printf("a = %d \n", *x);
-    int **y = &x;
-    printf("a = %d", **y);
+    int *x = &a;
+    printf("address = %p \n", x);
+    printf("a = %d",*x);
+    
 }
 
 

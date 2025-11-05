@@ -3,20 +3,13 @@
  
 int main() {
 
-     // declare and initialize string
+    //  // declare and initialize string
      char str[] = "Good Morning";
-     // printing read string
-    printf("%s", str);  
+    //  // printing read string
+    printf("%s \n", str);  
     int len = strlen(str);
     printf("%d \n", len); 
-
 }
-
-
-
-
-
-
 
 
     // printf("%ld", sizeof(a));
@@ -28,7 +21,7 @@ int main() {
     // for(int i =0; arr[i] != '\0'; i++)
     // {
     //     printf("%c",arr[i]);
-    // }
+    }
     // char arr[] = "MIT WPU";
 
     // printf("%s",arr);
@@ -96,7 +89,7 @@ int main() {
     //   printf("%c", * arr1);
     //   arr1++; 
     // }
-
+}
 
 
 
